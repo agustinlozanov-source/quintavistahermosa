@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quinta Vista Hermosa · Suites & Eventos en Santiago, N.L.</title>
+  <meta name="description" content="Quinta Vista Hermosa: habitaciones, palapas, asadores y albercas al pie de la Sierra Madre en Santiago, Nuevo León. Ideal para descansar, convivir y celebrar." />
+  <meta name="theme-color" content="#2f2a0e" />
+  <meta property="og:title" content="Quinta Vista Hermosa · Suites & Eventos" />
+  <meta property="og:description" content="Descanso al pie de la Sierra en Santiago, Nuevo León." />
+  <meta property="og:image" content="assets/img/sierra.webp" />
+  <link rel="icon" href="assets/brand/logo-cafe.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <a href="#top" class="brand" aria-label="Quinta Vista Hermosa, inicio">
+      <img src="assets/brand/logo-blanco.png" alt="Quinta Vista Hermosa" width="1450" height="830" />
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#bienvenidos">La Quinta</a>
+      <a href="#instalaciones">Instalaciones</a>
+      <a href="#galeria">Galería</a>
+      <a href="#alrededores">Alrededores</a>
+      <a href="#normas">Normas</a>
+    </nav>
+    <a class="btn btn-light header-cta" href="https://m.me/QuintaVistaHermosa" target="_blank" rel="noopener">
+      Reservar <span aria-hidden="true">→</span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="#bienvenidos">La Quinta</a>
+    <a href="#instalaciones">Instalaciones</a>
+    <a href="#galeria">Galería</a>
+    <a href="#alrededores">Alrededores</a>
+    <a href="#normas">Normas</a>
+    <a href="#ubicacion">Ubicación</a>
+    <a class="btn btn-gold" href="https://m.me/QuintaVistaHermosa" target="_blank" rel="noopener">Reservar →</a>
+  </div>
+
+  <main>
+    <!-- Hero: imagen fija que se transforma con el scroll -->
+    <section class="hero" aria-label="Bienvenida">
+      <div class="hero-sticky">
+        <div class="hero-media" aria-hidden="true">
+          <img class="hero-img hero-img--a" src="assets/img/sierra.webp" alt="" fetchpriority="high" />
+          <img class="hero-img hero-img--b" src="assets/img/alberca-terraza.webp" alt="" />
+          <div class="hero-shade"></div>
+        </div>
+
+        <div class="hero-content">
+          <p class="pill hero-pill"><span class="dot"></span>Santiago, Nuevo León · Suites &amp; Eventos</p>
+          <h1 class="hero-title">
+            <span class="line"><span class="w">Descanso</span> <span class="w">al</span> <span class="w">pie</span></span>
+            <span class="line"><span class="w">de</span> <span class="w">la</span> <span class="w serif">Sierra.</span></span>
+          </h1>
+          <p class="hero-sub">Habitaciones, palapas y albercas rodeadas de naturaleza, a minutos del Pueblo Mágico.</p>
+          <ul class="hero-stats">
+            <li><b>6</b> habitaciones</li>
+            <li><b>4</b> palapas</li>
+            <li><b>8</b> asadores</li>
+            <li><b>2</b> albercas</li>
+          </ul>
+        </div>
+
+        <p class="hero-hint">Desliza para bajar a la quinta</p>
+      </div>
+    </section>
+
+    <!-- 01 Bienvenidos -->
+    <section class="section intro" id="bienvenidos">
+      <div class="container">
+        <p class="eyebrow"><span>( 01 )</span> Bienvenidos</p>
+        <p class="intro-text" data-words>
+          Un muy buen lugar para relajarse, estar en la naturaleza, asar una carnita o preparar una buena discada.
+          <span class="inline-pics" aria-hidden="true">
+            <img src="assets/img/sierra.webp" alt="" />
+            <img src="assets/img/alberca-terraza.webp" alt="" />
+            <img src="assets/img/clavado.webp" alt="" />
+          </span>
+          Con la sierra de fondo, la alberca a unos pasos y tiempo de sobra para convivir.
+        </p>
+      </div>
+    </section>
+
+    <!-- 02 Instalaciones -->
+    <section class="section amenities" id="instalaciones">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow"><span>( 02 )</span> Instalaciones</p>
+          <h2 class="h2 reveal">Todo lo que necesitas para un <em>fin de semana</em> sin prisas.</h2>
+        </div>
+
+        <ol class="amenity-list">
+          <li class="amenity reveal" data-img="assets/img/alberca-terraza.webp">
+            <span class="amenity-num" data-count="6">0</span>
+            <div class="amenity-body">
+              <h3>Habitaciones</h3>
+              <p>Suites cómodas para descansar después de un día al aire libre.</p>
+            </div>
+            <span class="amenity-tag">Hospedaje</span>
+          </li>
+          <li class="amenity reveal" data-img="assets/img/sierra.webp">
+            <span class="amenity-num" data-count="4">0</span>
+            <div class="amenity-body">
+              <h3>Palapas</h3>
+              <p>Sombra fresca para comer, platicar y ver caer la tarde.</p>
+            </div>
+            <span class="amenity-tag">Convivencia</span>
+          </li>
+          <li class="amenity reveal" data-img="assets/img/alberca-terraza.webp">
+            <span class="amenity-num" data-count="8">0</span>
+            <div class="amenity-body">
+              <h3>Asadores</h3>
+              <p>Para la carne asada, la discada o lo que se antoje.</p>
+            </div>
+            <span class="amenity-tag">Parrilla</span>
+          </li>
+          <li class="amenity reveal" data-img="assets/img/clavado.webp">
+            <span class="amenity-num" data-count="2">0</span>
+            <div class="amenity-body">
+              <h3>Albercas</h3>
+              <p>Alberca principal y chapoteadero para los más pequeños.</p>
+            </div>
+            <span class="amenity-tag">Agua</span>
+          </li>
+        </ol>
+        <img class="amenity-preview" alt="" aria-hidden="true" />
+      </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="section gallery" id="galeria">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <h2 class="h2 reveal">Así se vive <em>la quinta.</em></h2>
+          <a class="link-arrow reveal" href="https://www.facebook.com/QuintaVistaHermosa/photos" target="_blank" rel="noopener">Ver más fotos en Facebook →</a>
+        </div>
+        <div class="gallery-grid">
+          <figure class="g g--wide reveal">
+            <img src="assets/img/alberca-terraza.webp" alt="Alberca con sombrillas rodeada de palmeras vista desde la terraza" loading="lazy" />
+            <figcaption>La alberca, vista desde la terraza</figcaption>
+          </figure>
+          <figure class="g g--tall reveal">
+            <img src="assets/img/clavado.webp" alt="Niño saltando a la alberca con palmeras al fondo" loading="lazy" />
+            <figcaption>Tardes de alberca</figcaption>
+          </figure>
+          <figure class="g g--wide reveal">
+            <img src="assets/img/sierra.webp" alt="Sierra Madre cubierta de vegetación con nubes en la cima" loading="lazy" />
+            <figcaption>El amanecer frente a la sierra</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 Alrededores -->
+    <section class="section around" id="alrededores">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <p class="eyebrow"><span>( 03 )</span> Alrededores</p>
+            <h2 class="h2 reveal">Aventura y tradición <em>a la vuelta.</em></h2>
+          </div>
+          <div class="carousel-ctrl">
+            <button class="round-btn" data-dir="-1" aria-label="Anterior">←</button>
+            <button class="round-btn" data-dir="1" aria-label="Siguiente">→</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel" tabindex="0" aria-label="Lugares cercanos">
+        <!-- Las tarjetas se generan desde main.js (ATTRACTIONS) -->
+      </div>
+    </section>
+
+    <!-- 04 Normas -->
+    <section class="section rules" id="normas">
+      <div class="container rules-grid">
+        <div>
+          <p class="eyebrow eyebrow--light"><span>( 04 )</span> Normas de hospedaje</p>
+          <h2 class="h2 reveal">Reglas claras para que <em>todos</em> la pasen bien.</h2>
+          <div class="times reveal">
+            <div><span>Entrada</span><b>2:00 <small>PM</small></b></div>
+            <div><span>Salida</span><b>11:00 <small>AM</small></b></div>
+          </div>
+          <p class="rules-note reveal">Quinta Vista Hermosa es un espacio de descanso y diversión. Compartimos nuestras políticas de hospedaje y sana convivencia para asegurar una excelente estancia a huéspedes, proveedores y colaboradores.</p>
+        </div>
+
+        <div class="accordion">
+          <details class="reveal" open>
+            <summary><span>01</span> Check-in / Check-out</summary>
+            <p>El ingreso a las habitaciones es a las 2:00 PM y la salida al día siguiente a las 11:00 AM. Es importante notificar ambas a la administración de la Quinta.</p>
+          </details>
+          <details class="reveal">
+            <summary><span>02</span> Áreas comunes y al aire libre</summary>
+            <p>Palapas, patios, estacionamiento y alberca deben conservarse limpios, colocando la basura en los botes correspondientes. Respeta los reglamentos internos señalados en cada área.</p>
+          </details>
+          <details class="reveal">
+            <summary><span>03</span> Música</summary>
+            <p>La música está permitida a un volumen que permita conversar, y hasta las 11:00 PM, para que todos los huéspedes puedan descansar.</p>
+          </details>
+          <details class="reveal">
+            <summary><span>04</span> Estacionamiento</summary>
+            <p>El estacionamiento es libre; solo pedimos respetar la lógica de no obstruir a otros vehículos.</p>
+          </details>
+          <details class="reveal">
+            <summary><span>05</span> Fiestas y convivencia</summary>
+            <p>Nos encanta que convivas con tus seres queridos, e incluso con otros huéspedes. Pedimos siempre una conducta de estricto respeto al prójimo.</p>
+          </details>
+          <details class="reveal">
+            <summary><span>06</span> Visitas e invitados</summary>
+            <p>No está permitido recibir visitas. En caso necesario, deben informarse antes y, si se autorizan, tienen un costo de $150 MXN por invitado.</p>
+          </details>
+          <details class="reveal">
+            <summary><span>07</span> Incumplimiento</summary>
+            <p>El incumplimiento de las políticas será señalado amablemente. En caso de reincidir, se pedirá abandonar las instalaciones sin reembolso de la reservación o pago de hospedaje.</p>
+          </details>
+          <p class="signature">— Administración de Quinta Vista Hermosa</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 Ubicación / Contacto -->
+    <section class="section location" id="ubicacion">
+      <div class="container location-grid">
+        <div class="location-copy">
+          <p class="eyebrow"><span>( 05 )</span> Ubicación</p>
+          <h2 class="h2 reveal">Te esperamos en <em>Santiago.</em></h2>
+          <p class="reveal">A unos minutos del centro del Pueblo Mágico y de la Presa de la Boca, con la Sierra Madre como vista desde cualquier rincón.</p>
+          <div class="location-actions reveal">
+            <a class="btn btn-dark" href="https://maps.app.goo.gl/UuK3pNrtqsMh9G5P6" target="_blank" rel="noopener">Cómo llegar →</a>
+            <a class="btn btn-outline" href="https://m.me/QuintaVistaHermosa" target="_blank" rel="noopener">Escríbenos por Messenger</a>
+          </div>
+        </div>
+        <div class="map reveal">
+          <iframe
+            title="Mapa de Quinta Vista Hermosa"
+            src="https://maps.google.com/maps?q=25.3782616,-100.1496415&z=15&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <img class="footer-logo" src="assets/brand/logo-blanco.png" alt="Quinta Vista Hermosa · suites and events" loading="lazy" />
+      <nav class="footer-nav" aria-label="Pie de página">
+        <a href="#bienvenidos">La Quinta</a>
+        <a href="#instalaciones">Instalaciones</a>
+        <a href="#alrededores">Alrededores</a>
+        <a href="#normas">Normas</a>
+        <a href="#ubicacion">Ubicación</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/QuintaVistaHermosa" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://maps.app.goo.gl/UuK3pNrtqsMh9G5P6" target="_blank" rel="noopener">Google Maps</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year></span> Quinta Vista Hermosa</span>
+      <span>Santiago, Nuevo León, México</span>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
